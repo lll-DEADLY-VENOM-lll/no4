@@ -3,7 +3,7 @@ import os
 import re
 import json
 from typing import Union
-
+import requests
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
@@ -11,13 +11,14 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from PURVIMUSIC.utils.database import is_on_off
 from PURVIMUSIC.utils.formatters import time_to_seconds
-
+from PURVIMUSIC import LOGGER
 
 
 import os
 import glob
 import random
 import logging
+from config import YTPROXY_URL as YTPROXY
 
 def cookie_txt_file():
     folder_path = f"{os.getcwd()}/cookies"
@@ -58,12 +59,12 @@ async def check_file_size(link):
     info = await get_format_info(link)
     if info is None:
         return None
-
+    
     formats = info.get('formats', [])
     if not formats:
         print("No formats found.")
         return None
-
+    
     total_size = parse_size(formats)
     return total_size
 
@@ -294,25 +295,42 @@ class YouTubeAPI:
         title: Union[bool, str] = None,
     ) -> str:
         if videoid:
+            vid_id = link
             link = self.base + link
         loop = asyncio.get_running_loop()
+
         def audio_dl():
-            ydl_optssx = {
-                "format": "bestaudio/best",
-                "outtmpl": "downloads/%(id)s.%(ext)s",
-                "geo_bypass": True,
-                "nocheckcertificate": True,
-                "quiet": True,
-                "cookiefile" : cookie_txt_file(),
-                "no_warnings": True,
-            }
-            x = yt_dlp.YoutubeDL(ydl_optssx)
-            info = x.extract_info(link, False)
-            xyz = os.path.join("downloads", f"{info['id']}.{info['ext']}")
-            if os.path.exists(xyz):
-                return xyz
-            x.download([link])
-            return xyz
+            err = False
+            try:
+                res = requests.get(f"{YTPROXY}/{vid_id}")
+                response = res.json()
+                if response['status'] == 'success':
+                    fpath = f"downloads/{vid_id}.mp3"
+                    if os.path.exists(fpath):
+                        return fpath
+                    download_link =response['download_link']
+                    data = requests.get(download_link)
+                    if data.status_code == 200:
+                        with open(fpath, "wb") as f:
+                            f.write(data.content)
+                        return fpath
+                err = True
+            except Exception as e:
+                LOGGER(__name__).info(e)
+                err = True
+            if err:
+                ydl_optssx = {
+                    "format": "bestaudio/best",
+                    "outtmpl": "downloads/%(id)s.%(ext)s",
+                    "geo_bypass": True,
+                    "nocheckcertificate": True,
+                    "quiet": True,
+                    "cookiefile" : cookie_txt_file(),
+                    "no_warnings": True,
+                }
+                x = yt_dlp.YoutubeDL(ydl_optssx)
+                info = x.extract_info(link, False)
+                return info['url']
 
         def video_dl():
             ydl_optssx = {
