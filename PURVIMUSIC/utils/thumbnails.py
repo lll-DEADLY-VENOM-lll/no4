@@ -84,7 +84,7 @@ async def get_thumb(v):
  d.text((x,y+70),truncate_text(d,n,l,360),(255,255,255,255),l)
  m.paste(a,((1280-600)//2,(720-420)//2),a)
  d=ImageDraw.Draw(m)
- q="Powered By System"
+ q="Powered By Rollex"
  z=d.textlength(q,w)
  d.text((1280-z-20,20),q,(192,192,192,255),w)
  try:
