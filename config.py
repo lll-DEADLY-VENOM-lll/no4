@@ -22,20 +22,14 @@ BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME")
 # ---------------------------------------------------------
-
-
+# Vars For API End Pont.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
+YT_API_KEY = getenv("YT_API_KEY" , "xbit_BHNV3FZ1MIMUSQADIBVQ7G" ) ## get your secret key from Deep
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
-# API URL - here
-API_URL = getenv("API_URL", "https://tgmusic.fallenapi.fun")
 
-# API KEY - here
-API_KEY = getenv("API_KEY", "ef4e80_qtqagWb9uWwn07HeeUsOFNeTqU2RN_Ej")
-
-# For - downloads
-DOWNLOADS_DIR = "downloads"
 #---------------------------------------------------------------
 
 # ----------------------------------------------------------------
