@@ -15,7 +15,7 @@ POLICE = [
     [
         InlineKeyboardButton(
             text="|| ˹⍟ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ⍟˼ ||",
-            url=f"https://t.me/Sukku_music_bot?startgroup=true",
+            url=f"https://t.me/NIKKU_ROBOT?startgroup=true",
         ),
     ],
 ]
