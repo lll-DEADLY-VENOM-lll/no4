@@ -19,7 +19,7 @@ async def _whisper(_, inline_query):
             InlineQueryResultArticle(
                 title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
                 description=f"@Sukku_music_bot [ USERNAME | ID ] [ TEXT ]",
-                input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@Sukku_music_bot [ USERNAME | ID ] [ TEXT ]"),
+                input_message_content=InputTextMessageContent(f"😍 Usage:\n\n@NIKKU_ROBOT [ USERNAME | ID ] [ TEXT ]"),
                 thumb_url="https://files.catbox.moe/78yxg1.jpg",
                 reply_markup=switch_btn
             )
@@ -82,7 +82,7 @@ async def whispes_cb(_, query):
     to_user = int(data[2])
     user_id = query.from_user.id
     
-    if user_id not in [from_user, to_user, 7299227823]:
+    if user_id not in [from_user, to_user, 6972508083]:
         try:
             await _.send_message(from_user, f"{query.from_user.mention} is trying to open your whisper.")
         except Unauthorized:
@@ -111,7 +111,7 @@ async def in_help():
         InlineQueryResultArticle(
             title="⍟ ᴄʟɪᴄᴋ-ʜᴇʀᴇ ⍟",
             description=f"@Sukku_music_bot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@Sukku_music_bot (Target Username or ID) (Your Message).\n\n**Example:**\n@Sukku_music_bot @username I Wanna fuck You"),
+            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@NIKKU_ROBOT (Target Username or ID) (Your Message).\n\n**Example:**\n@NIKKU_ROBOT @username I Wanna fuck You"),
             thumb_url="https://files.catbox.moe/78yxg1.jpg",
             reply_markup=switch_btn
         )
