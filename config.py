@@ -14,9 +14,9 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","")
+OWNER_USERNAME = getenv("OWNER_USERNAME","VNI0X")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Sukku_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "NIKKU_ROBOT")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -24,7 +24,7 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 # ---------------------------------------------------------
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
-YT_API_KEY = getenv("YT_API_KEY" , "xbit_EF0V2RDJG36GAWO9E1A7TB" ) ## get your secret key from Deep
+YT_API_KEY = getenv("YT_API_KEY" , "xbit_EF0V2RDJG36GAWO9E1A7TB" ) ## get your secret key from @VNI0X
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002141133985))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002223516578))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7338182362))
+OWNER_ID = int(getenv("OWNER_ID", 6972508083))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,7 +55,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DeepVikky88/SukkuMusic",
+    "https://github.com/TANYA-SINGH-VNS-UP",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/love_in_timeeee")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/love_in_timeeee")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HEROKU_CLUB")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NOBITA_SUPPORT")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
