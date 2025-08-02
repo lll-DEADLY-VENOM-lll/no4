@@ -479,7 +479,7 @@ class YouTubeAPI:
         def audio_dl(vid_id):
             try:
                 if not YT_API_KEY:
-                    print("API KEY not set in config, Set API Key you got from @tgmusic_apibot")
+                    print("API KEY not set in config, Set API Key you got from @nikku_robot")
                     return None
                 if not YTPROXY:
                     print("API Endpoint not set in config\nPlease set a valid endpoint for YTPROXY_URL in config.")
