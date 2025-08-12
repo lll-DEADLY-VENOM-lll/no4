@@ -150,21 +150,21 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/4stxch.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/4stxch.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-STATS_IMG_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-STREAM_IMG_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/fed49b619d1f6c50b3d58-f79a42f0e1eab582eb.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/4stxch.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/4stxch.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
