@@ -24,7 +24,7 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 # ---------------------------------------------------------
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://xyz.spotifytech.shop') ## E.G https://yt.okflix.
-YT_API_KEY = getenv("YT_API_KEY" , "d5ad654323feae3a2f8322c88f1247a7" ) ## get your secret key from @VNI0X
+YT_API_KEY = getenv("YT_API_KEY" , "8de65623506d05c51fcf90ee3e97102f" ) ## get your secret key from @VNI0X
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
