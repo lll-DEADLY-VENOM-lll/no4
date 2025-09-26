@@ -23,7 +23,7 @@ BOT_NAME = getenv("BOT_NAME")
 ASSUSERNAME = getenv("ASSUSERNAME")
 # ---------------------------------------------------------
 # Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://xyz.spotifytech.shop') ## E.G https://yt.okflix.
+YTPROXY_URL = getenv("YTPROXY_URL", "https://xyz.spotifytech.shop") ## E.G https://yt.okflix.
 YT_API_KEY = getenv("YT_API_KEY" , "77df1a8d9fbb262da15f54516027801f" ) ## get your secret key from @VNI0X
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HEROKU_CLUB")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+LFluOCEUVMljYjQ9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Urs_shivanshi")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Urs_shivanshi")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
