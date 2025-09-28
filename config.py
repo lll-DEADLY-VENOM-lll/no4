@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Urs_shivanshi")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Urs_shivanshi")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+5M_sJUelO19lM2Zl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+5M_sJUelO19lM2Zl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -150,21 +150,21 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/4stxch.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/l58zhm.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/4stxch.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/l58zhm.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/4stxch.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/4stxch.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/4stxch.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/l58zhm.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/l58zhm.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/l58zhm.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/l58zhm.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/l58zhm.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/l58zhm.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/l58zhm.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/l58zhm.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/l58zhm.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/l58zhm.jpg"
 
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
